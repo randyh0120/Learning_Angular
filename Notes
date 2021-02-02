@@ -13,3 +13,6 @@ test.ts allows us to set up our tests.
 
 // Hot Module Replacement (HMR)
 This is when you change somehting in your app and Angular recompiles everything to load the new changes.
+
+// Styles
+All the styles are saved and loaded in a styles.js file on runtime.
