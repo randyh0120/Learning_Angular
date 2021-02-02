@@ -5,3 +5,6 @@ I use Typescript in this Project.
 Http Endpoints are like the ports.
 Http Requests are like ships.
 Data is like cargo on the ship.
+
+// e2e
+The e2e folder allows us to write tests for our software. Simulating a real user.
