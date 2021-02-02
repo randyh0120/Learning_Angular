@@ -58,11 +58,11 @@
 // }
 //
 // // Types in Functions
-interface PointInterface {
-  x: number,
-  y: number,
-  draw: () => void
-}
+// interface PointInterface {
+//   x: number,
+//   y: number,
+//   draw: () => void
+// }
 //
 class Point {
   x: number;
@@ -78,6 +78,8 @@ class Point {
 }
 //
 let point = new Point();
+point.x = 1;
+point.y = 2;
 point.draw();
 //
 // let drawPoint = (point: Point) => {
