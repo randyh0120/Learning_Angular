@@ -1,5 +1,5 @@
-function loglog(message) {
+function log(message) {
     console.log(message);
 }
 var message = "Hello World";
-loglog(message);
+log(message);
