@@ -28,3 +28,6 @@ Can catch Compile-time errors before going live.
 Typescript has great tools.
 
 We must transpile our Typescript code into --> JS code
+
+// tsconfig.json
+Must create and update this file when using tsc in the terminal or an error will be thrown. Use the same config file from the angular hello-world project.
