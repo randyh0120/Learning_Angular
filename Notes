@@ -8,3 +8,8 @@ Data is like cargo on the ship.
 
 // e2e
 The e2e folder allows us to write tests for our software. Simulating a real user.
+
+test.ts allows us to set up our tests.
+
+// Hot Module Replacement (HMR)
+This is when you change somehting in your app and Angular recompiles everything to load the new changes.
