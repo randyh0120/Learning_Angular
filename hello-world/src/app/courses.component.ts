@@ -5,8 +5,12 @@ import { Component } from '@angular/core';
 @Component({
   // Reference an element named courses
   selector: 'courses', // <course> "course"
-  template: '<h2>{{ title }}</h2>',
+  template: '<h2>{{ getTitle() }}</h2>',
 })
 export class CoursesComponent {
   title="List of courses"
+
+  getTitle() {
+    return this.title;
+  }
 }
